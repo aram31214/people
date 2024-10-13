@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<title>add person</title>
+<link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/static/css/styles.css">
+</head>
+
+<body>
+
+
+<h1> Add person</h1>
+<from method="POST">
+
+{% csrf_token%}
+
+
+
+<label for="username"> username</label>
+
+<input type="text" id="username" name="username" required><br>
+
+
+
+
+
+
+
+<label for="password"> password</label>
+
+<input type="password" id="password" name="password" required><br>
+<button type="submit">button</button>
+</from>
+<br>
+
+<a href="{%url 'home'%}"> go home</a>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

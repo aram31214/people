@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<title>home</title>
+<link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/static/css/styles.css">
+
+</head>
+
+<body>
+
+
+<h1> list person</h1>
+
+<ul>
+
+{% for person in people %}
+<li> {{person.username}}</li>
+{% empty %}
+
+<li> no people add yet</li>
+
+{% endfor%}
+
+
+
+
+
+
+
+</ul>
+<a href="{% url 'add' %}">add a new person</a>
+</body>
+</html>

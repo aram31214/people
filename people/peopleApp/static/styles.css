@@ -1,0 +1,38 @@
+body {
+
+background-color: antiquewhite;
+
+margin: 0;
+padding: 20px;
+
+}
+h1{
+
+
+    color: #333;
+}
+form{
+
+
+background-color: aliceblue;
+
+padding: auto;
+
+
+
+}
+button{
+
+background-color: blanchedalmond;
+padding: 10 px 20px;
+
+}
+input{
+
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+a { color: #000; 
+
+display: block;}
